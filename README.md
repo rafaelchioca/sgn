@@ -1,16 +1,42 @@
-# sgn
+# Projeto Avaliativo Flutter 2° Bimestre - SGN 
 
-A new Flutter project.
+Este projeto é um aplicativo Flutter para calcular a média de notas de um aluno com base em suas disciplinas e respectivas notas.
 
-## Getting Started
+## Sobre o Projeto
 
-This project is a starting point for a Flutter application.
+O aplicativo SGN (Sistema Gerenciador de Notas) permite aos usuários inserir o nome de cada disciplina e suas notas correspondentes, visualizando a média final de todas as disciplinas e a situação do aluno (aprovado ou reprovado) com base na média mínima de aprovação (6,0).
 
-A few resources to get you started if this is your first Flutter project:
+## Funcionalidades
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Cadastro de Notas**: Os usuários podem inserir o nome de cada disciplina e suas respectivas notas.
+- **Validação de Entrada**: O aplicativo valida as entradas do usuário para garantir que apenas dados válidos sejam processados.
+- **Cálculo da Média**: O aplicativo calcula a média final das notas de todas as disciplinas.
+- **Visualização da Situação**: Os usuários podem visualizar se o aluno está aprovado ou reprovado com base na média final e na média mínima de aprovação.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Como Começar
+
+Para começar a desenvolver com o projeto do Cálculo de Média de Notas, siga estas etapas:
+
+1. Clone o repositório:
+
+```
+git clone https://github.com/rafaelchioca/sgn.git
+```
+
+2. Navegue até o diretório do projeto:
+
+```
+cd sgn
+```
+
+3. Instale as dependências:
+
+```
+flutter pub get
+```
+
+4. Execute o aplicativo:
+
+```
+flutter run
+```
