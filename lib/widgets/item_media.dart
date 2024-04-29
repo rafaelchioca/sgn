@@ -27,8 +27,8 @@ class ItemMedia extends StatelessWidget {
           ),
         ),
         trailing: Row(
-          mainAxisSize: MainAxisSize.min, // Garante que o Row ocupe apenas o espaço necessário
-          mainAxisAlignment: MainAxisAlignment.end, // Alinha os elementos à direita
+          mainAxisSize: MainAxisSize.min,
+          mainAxisAlignment: MainAxisAlignment.end,
           children: [
             Container(
               width: 32,
